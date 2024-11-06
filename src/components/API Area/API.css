@@ -1,0 +1,48 @@
+.API {
+    margin-top: 50px; /* Adjust this value as needed */
+    text-align: center; /* Center the text */
+    height: 100vh;
+}
+
+
+
+.API p {
+    font-size: 20px; /* 18px */
+    font-weight: 300;
+    color: #666666;
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 50px;
+}
+
+.flight-search {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    width: 80%; 
+    margin: 0 auto; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.15);
+    position: relative;
+    height: 200px;
+}
+
+.columns{
+    display: flex;
+    flex-direction: column;
+}
+    
+.dropdowns{
+    display: flex;
+    flex-direction: row;
+}
+
+.filters{
+    margin-left: 60px;
+}
+
+.dropdowns select {
+    font-size: 18px;
+   border: none;
+}
+
