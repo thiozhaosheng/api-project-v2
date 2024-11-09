@@ -46,3 +46,33 @@
    border: none;
 }
 
+.input {
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+    flex-direction: row;
+    display: flex;
+    margin-top: 20px;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px; /* Reduce the gap between inputs */
+    justify-content: center; /* Center the input fields */
+    align-items: center; /* Align inputs vertically */
+    width: 120%;
+}
+
+@media (max-width: 768px) {
+    .input-area {
+        width: 90%; /* 90% of container on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .input-area {
+        width: 80%; /* 80% of container on smaller screens */
+        flex-direction: column; /* Stack inputs vertically */
+        gap: 15px; /* Increase space between stacked inputs */
+    }
+}
